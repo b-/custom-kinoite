@@ -4,8 +4,6 @@ on:
   schedule:
     - cron: '20 20 * * *'
   push:
-    branches:
-      - main
     paths-ignore:
       - '**.md'
       - '**.txt'
