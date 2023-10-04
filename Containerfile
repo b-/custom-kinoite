@@ -1,4 +1,4 @@
-FROM ghcr.io/ublue-os/silverblue-main:38
+FROM ghcr.io/ublue-os/kinoite-main:38
 
 # Run all the custom scripts
 ADD scripts/* /tmp/

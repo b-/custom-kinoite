@@ -1,6 +1,6 @@
 # Silverblue
 
-This is my personal rendition of [Fedora Silverblue](https://silverblue.fedoraproject.org/) based on [ublue-os](https://github.com/ublue-os) with custom modifications and fixes for my workflow. This _may_ be useful for other people to use, but it's specifically tailored for my usage. Use at your own risk.
+This is my personal rendition of [Fedora Kinoite](https://kinoite.fedoraproject.org/) based on [ublue-os](https://github.com/ublue-os) with custom modifications and fixes for my workflow. This _may_ be useful for other people to use, but it's specifically tailored for my usage. Use at your own risk.
 
 ## Based
 
