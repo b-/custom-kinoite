@@ -15,7 +15,7 @@ I do not provide ISO downloads for this. To do a clean install, you will need to
 3) Run the following command to rebase your system:
 
 ```shell
-sudo rpm-ostree rebase --experimental ostree-unverified-registry:ghcr.io/btkostner/silverblue:edge
+sudo rpm-ostree rebase --experimental ostree-unverified-registry:ghcr.io/briorg/silverblue:edge
 ```
 
 ## Changes
