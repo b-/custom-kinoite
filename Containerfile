@@ -8,6 +8,7 @@ ADD scripts/* /tmp/
 RUN /tmp/bat.sh
 RUN /tmp/delta.sh
 RUN /tmp/git.sh
+RUN /tmp/1password.sh
 
 # RUN /tmp/cleanup.sh
 
