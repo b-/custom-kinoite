@@ -153,7 +153,7 @@ runs:
         labels: |
           ${{ inputs.labels }}
         tags: |
-          type=raw,39
+          type=raw,${{ github.ref_name }}
           type=edge
           type=schedule,pattern={{date 'YYYYMMDD'}}
           type=semver,pattern={{major}}.{{minor}}
