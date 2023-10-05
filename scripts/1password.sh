@@ -7,7 +7,7 @@ mkdir /tmp/1p
 pushd /tmp/1p
 curl -LO https://downloads.1password.com/linux/tar/stable/x86_64/1password-latest.tar.gz
 tar -xf 1password-latest.tar.gz
-  cd * # lol
+  cd 1password-*.x64
 
   # Fill in policy kit file with bri # a list of (the first 10) human users of the system.
   export POLICY_OWNERS
