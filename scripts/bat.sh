@@ -29,7 +29,7 @@ gzip -c bat.1 > /usr/share/man/man1/bat.1.gz
 
 mv bat /usr/bin/bat
 
-rm /usr/bin/cat
-ln /usr/bin/bat /usr/bin/cat
-
-cat --version
+#rm /usr/bin/cat
+#ln /usr/bin/bat /usr/bin/cat
+#
+#cat --version
