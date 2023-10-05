@@ -4,7 +4,7 @@ FROM ghcr.io/ublue-os/kinoite-main:39
 ADD scripts/* /tmp/
 
 # 1Password is disabled for now. Install it as an overlay.
-# RUN /tmp/1password.sh
+RUN /tmp/1password.sh
 RUN /tmp/bat.sh
 RUN /tmp/delta.sh
 RUN /tmp/git.sh
