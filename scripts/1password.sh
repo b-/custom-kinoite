@@ -49,8 +49,8 @@ EOF" > ./com.1password.1Password.policy
 #  # Restore previous directory
 #  cd "$CWD"
 #
-#  # Register path symlink
-#  ln -sf /opt/1Password/1password /usr/bin/1password
+# Register path symlink
+ln -sf /opt/1Password/1password /usr/bin/1password
 #
 #if [ "$(id -u)" -ne 0 ]; then
 #  echo "You must be running as root to run 1Password's post-installation process"
